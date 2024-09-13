@@ -99,6 +99,7 @@ header .menu-desk nav ul li a:hover::before {
         display: block;
         margin-top: 0;
         margin-left: -390px;
+        font-size: 15px;
         margin-top: -10px;
     }
     .menu-mobile nav ul li a
@@ -123,12 +124,12 @@ header .menu-desk nav ul li a:hover::before {
     .sec h1 
     {
         margin: 0;
-        font-size: 20px;
+        font-size: 18px;
         margin: 10px 40px;
     }
     .sec img
     {
-        width: 400px;
+        width: 370px;
         height: 200px;
     }
     .sec p
