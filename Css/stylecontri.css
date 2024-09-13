@@ -123,8 +123,8 @@ header .menu-desk nav ul li a:hover::before {
     .sec h1 
     {
         margin: 0;
-        font-size: 130%;
-        margin: 10px 30px;
+        font-size: 20px;
+        margin: 10px 40px;
     }
     .sec img
     {
