@@ -87,9 +87,51 @@ h1{
 }
 .tex
 {
-    margin-top: -80px;
+    margin-top: 10px;
     margin-left: 50px;
     color: white;
     width: 30%;
     text-align: justify;
+}
+.menu-mobile
+{
+    display: none;
+}
+@media screen and (max-width: 1020px){
+    /*Classe*/
+    .textosAl
+    {
+        margin-left: -12px;
+        font-size: 12px;
+        width: 940px;
+        text-align: justify;
+    }
+    h1{
+        margin-left: 30px;
+        font-size: 40px;
+    }
+    /*Foto de perfil*/
+    header .logo img
+    {
+        margin-top: -20px;
+        max-width: 150px;
+        border-radius: 100px;
+    }
+    /*Cabeçalho*/
+    .menu-desk
+    {
+        display: none
+    }
+    .menu-mobile
+    {
+        display: block;
+        margin: 20px;
+        margin-top: -5px;
+    }
+   .menu-mobile nav ul li a
+   {
+        list-style-type: none;
+        color: white;
+        text-decoration: none;
+   }
 }

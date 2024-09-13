@@ -78,8 +78,57 @@ header .menu-desk nav ul li a:hover::before {
     gap: 25px;
 
 }
+.menu-mobile
+{
+    display: none;
+}
+@media screen and (max-width: 1020px)
+{
+    .menu-desk
+    {
+        display: none;
+    }
+    .menu-mobile
+    {
+        display: block;
+        margin-top: 0;
+        margin-left: -380px;
+        margin-top: -10px;
+    }
+    .menu-mobile nav ul li a
+    {
+        color: white;
+        font-size: 15px;
+        display: flex;
+        text-decoration: none;
+    }
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    header .menu-mobile nav ul li{
+        display: inline-block;
+        margin: -10px 10px;
+
+    }
+    .email
+    {
+        margin: 0px;
+        font-size: 40px;
+        margin-left: -30px;
+        
+    }
+    .fotos{
+        margin: 0px;
+        margin-left: -10px;
+    }
+    .tesu
+    {
+        margin-top: 150px;
+        margin-left: 70px;
+    }
 
 
-
+}
 
 

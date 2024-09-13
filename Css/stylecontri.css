@@ -84,10 +84,60 @@ header .menu-desk nav ul li a:hover::before {
     text-align: justify;
     margin-bottom: 60px;
 }
-
-
-
-
-
-
-
+.menu-mobile
+{
+    display: none;
+}
+@media screen and (max-width: 1020px)
+{
+    .menu-desk
+    {
+        display: none;
+    }
+    .menu-mobile
+    {
+        display: block;
+        margin-top: 0;
+        margin-left: -390px;
+        margin-top: -10px;
+    }
+    .menu-mobile nav ul li a
+    {
+        color: white;
+        display: flex;
+        text-decoration: none;
+    }
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    header .menu-mobile nav ul li{
+        display: inline-block;
+        margin: -10px 10px;
+    }
+    
+    .sec{
+        margin: 0;
+        margin-top: 50px;
+    }
+    .sec h1 
+    {
+        margin: 0;
+        font-size: 130%;
+        margin: 10px 30px;
+    }
+    .sec img
+    {
+        width: 400px;
+        height: 200px;
+    }
+    .sec p
+    {
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 90%;
+        text-align: justify;
+    
+    }
+}

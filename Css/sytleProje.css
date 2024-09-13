@@ -84,6 +84,54 @@ p
 {
     margin-left: 450px;
 }
+.menu-mobile
+{
+    display: none;
+}
+@media screen and (max-width: 1020px)
+{
+    header .menu-desk
+    {
+        display: none;
+    }
+    .txtfoto img
+    {
+        margin-top: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 380px;
+        height: 310px;
+    }
+    .txtfoto p
+    {
+        margin-left: 100px;
+        font-size: none;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-left: 45px;        
+    }
+    .menu-mobile nav ul li a
+    {
+        color: white;
+        display: flex;
+        text-decoration: none;
+    }
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    header .menu-mobile nav ul li{
+        display: inline-block;
+        margin: -100px 10px;
+    }
+    .funSenha p
+    {
+        color: white;
+        margin: 0;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+}
 
 
  
