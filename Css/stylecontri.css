@@ -129,7 +129,8 @@ header .menu-desk nav ul li a:hover::before {
     }
     .sec img
     {
-        width: 370px;
+        margin-left: 10px;
+        width: 360px;
         height: 200px;
     }
     .sec p
